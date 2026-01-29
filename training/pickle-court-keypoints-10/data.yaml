@@ -1,0 +1,16 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+kpt_shape: [12, 3]
+flip_idx: [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11]
+
+nc: 1
+names: ['court']
+
+roboflow:
+  workspace: xuann-bacc-ujr91
+  project: pickle-court-keypoints-nluo7
+  version: 10
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/xuann-bacc-ujr91/pickle-court-keypoints-nluo7/dataset/10

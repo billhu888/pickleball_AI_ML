@@ -1,0 +1,12 @@
+names:
+- pickleball
+nc: 1
+roboflow:
+  license: CC BY 4.0
+  project: pickleball-detector
+  url: https://universe.roboflow.com/pickleball-ball-detection/pickleball-detector/dataset/6
+  version: 6
+  workspace: pickleball-ball-detection
+test: ../test/images
+train: Pickleball-Detector-6/train/images
+val: Pickleball-Detector-6/valid/images
