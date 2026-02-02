@@ -26,6 +26,8 @@ class PlayerTracker:
             with open(stub_path, 'wb') as f:
                 pickle.dump(detected_players_per_frame, f)
 
+        return detected_players_per_frame
+
     def detect_frame(self, frame):
         results = self.model.track(frame, persist=True)[0]
         id_name_dict = results.names
